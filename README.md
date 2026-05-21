@@ -1,56 +1,90 @@
-# Welcome to your Expo app 👋
+# Checkpoint 3 — Cross Platform Application Development
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Identificação
 
-## Get started
+Nome: Miguel Lima da Silva
 
-1. Install dependencies
+RM: 565141
 
-   ```bash
-   npm install
-   ```
+Turma: CCPW
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Índice de Exercícios
 
-In the output, you'll find options to open the app in a
+| Aula | Exercício | Pasta |
+|------|-----------|-------|
+|03|Cartão de Visita Digital|[aula03-cartao-visita](./aula03-cartao-visita/)|
+|04|Contador de Hidratação|[aula04-contador-hidratacao](./aula04-contador-hidratacao/)|
+|05|Meu Perfil|[aula05-meu-perfil](./aula05-meu-perfil/)|
+|06|MemoList|[aula06-memolist](./aula06-memolist/)|
+|07|Mini Loja|[aula07-mini-loja](./aula07-mini-loja/)|
+|09|Cadastro Completo|[aula09-cadastro-completo](./aula09-cadastro-completo/)|
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Como executar
 
 ```bash
-npm run reset-project
+git clone LINK_DO_REPOSITORIO
+
+cd fiap-cpad-cp3/aula03-cartao-visita
+
+npm install
+
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+## Aula 03 — Cartão de Visita
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Aplicação estilo Linktree desenvolvida para praticar JSX e StyleSheet.
 
-## Learn more
+![print](./aula03-cartao-visita/assets/print.png)
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Aula 04 — Contador de Hidratação
 
-## Join the community
+Aplicação usando useState e useEffect.
 
-Join our community of developers creating universal apps.
+![print](./aula04-contador-hidratacao/assets/print.png)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## Aula 05 — Meu Perfil
+
+Aplicação utilizando Expo Router.
+
+![print](./aula05-meu-perfil/assets/print.png)
+
+---
+
+## Aula 06 — MemoList
+
+Aplicação com AsyncStorage e persistência.
+
+![print](./aula06-memolist/assets/print.png)
+
+---
+
+## Aula 07 — Mini Loja
+
+Aplicação usando Context API.
+
+![print](./aula07-mini-loja/assets/print.png)
+
+---
+
+## Aula 09 — Cadastro Completo
+
+Formulário com máscaras e validações.
+
+![print](./aula09-cadastro-completo/assets/print.png)
+
+---
+
+## Reflexão Final
+
+Durante a disciplina aprendi conceitos importantes sobre desenvolvimento mobile multiplataforma, incluindo navegação, gerenciamento de estado, Context API, AsyncStorage e criação de interfaces reutilizáveis.
